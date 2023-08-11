@@ -29,6 +29,7 @@ Part1, Part2 강좌를 합쳐서 책으로 냈습니다.
 - 개인 의견: tsconfig.json에서 그냥 esModuleInterop: true, strict: true 두 개만 주로 켜놓는 편. strict: true가 핵심임.
 - ts 파일을 실행하는 게 아니라 결과물인 js를 실행해야 한다.
 - 에디터가 필수가 됨. VS Code나 웹스톰 반드시 필요. 메모장으로 코딩 불가능한 지경에 이름.
+- tsc --init 해서 나오는 tsconfig.json 파일을 그대로 사용하면 된다. (React 쓸 때도 그렇게 하면 되려나?)
 
 ## ts 문법
 - 기본적으로 변수, 속성, 매개변수, 리턴값에 타입이 붙었다고 생각하면 됨.
